@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(5, 5, 5, 0.719);
+    background-image: url("../imgs/black-flag.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(250, 235, 215, 0.781);
+    padding: 1.5em;
+    margin: 50px 0px;
+    border: rgb(23, 34, 194) 1px solid;
+    border-radius: 10px;
+}
+
+h1 {
+    width: 100%;
+    color: rgb(80, 69, 26);
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 4em;
+}
+
+h2 {
+    width: 100%;
+    color: rgb(61, 52, 16);
+    text-align: left;
+}
+
+hr {
+    width: 50%;
+    margin: 10px auto;
+    background-color: turquoise;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-image: radial-gradient(rgb(32, 32, 104), rgb(56, 97, 13));
+    color: cornsilk;
+}
+
+article {
+    margin-top: 20px;
+    border: 1px solid rgb(102, 46, 46);
+    border-radius: 5px;
+}
+
+article h3 {
+    padding: 3px;
+    margin-top: 5px;
+}
+
+article ul {
+    padding: 5px;
+}
+
+article li {
+    margin: 5px;
+}
+
+#contactanos,
+section,
+aside,
+footer {
+    background-color: rgba(250, 235, 215, 0.788);
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}

@@ -1,0 +1,120 @@
+/*  //// CONTENEDOR ///// */
+
+.contenedor {
+    background-image: radial-gradient(rgba(0, 255, 136, 0.822), rgb(255, 187, 0));
+    animation: pintar 0.9s ease-in-out both;
+}
+
+.contenedor-noche {
+    background-image: radial-gradient(rgb(15, 15, 85), rgb(55, 4, 85));
+    animation: mostrar 0.9s ease-in-out both;
+}
+
+.contenedor-noche header,
+.contenedor-noche h1,
+.contenedor-noche h2,
+.contenedor-noche nav a,
+.contenedor-noche #contactanos,
+.contenedor-noche section,
+.contenedor-noche aside,
+.contenedor-noche footer {
+    background-color: rgba(54, 39, 19, 0.788);
+    color: cornsilk;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*  //// BOTONAZO ///// */
+
+.botonazo {
+    position: absolute;
+    top: 20px;
+    width: 55px;
+    height: 30px;
+    background-color: rgba(5, 5, 5, 0.5);
+    border-radius: 20px;
+    box-shadow: rgba(63, 63, 57, 0.596) 2px 1px 3px, rgba(36, 36, 32, 0.596) 3px 2px 5px, rgba(34, 34, 30, 0.596) 4px 3px 6px;
+}
+
+.btn-off {
+    background-color: aliceblue;
+    outline: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+}
+
+.btn-on {
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    position: absolute;
+    background-color: rgb(49, 4, 23);
+    color: red;
+    text-shadow: red -1px 0px 5px, red -1px 0px 4px, red -1px 0px 3px, red -1px 0px 2px;
+    left: 33px;
+    box-shadow: rgba(255, 0, 0, 0.61) -1px 0px 5px, red -2px 0px 6px, red -3px 0px 7px;
+}
+
+
+/* .botonazo-noche {
+    box-shadow: rgba(255, 255, 240, 0.596) 3px 2px 4px;
+} */
+
+
+/*  //// REDES SOCIALES ///// */
+
+.redesSociales {
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.redesSociales>a {
+    width: fit-content;
+}
+
+.redesSociales>a>li {
+    list-style: none;
+    font-size: 2em;
+}
+
+.facebook {
+    color: rgb(18, 97, 243);
+}
+
+.instagram {
+    color: rgb(255, 0, 242);
+}
+
+.whatsapp {
+    color: rgb(38, 197, 107);
+}
+
+.twitter {
+    color: rgb(61, 153, 228);
+}
+
+@keyframes mostrar {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pintar {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,39 @@
+    /* For mobile phones: */
+    
+    @media screen and (min-width: 300px) {
+        .productos,
+        .nosotros {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    /* For tablets: */
+    
+    @media screen and (min-width: 600px) {
+        .productos,
+        .nosotros {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    /* For desktop: */
+    
+    @media screen and (min-width: 768px) {
+        .productos,
+        .nosotros {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        footer {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
